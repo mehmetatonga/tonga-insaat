@@ -1,0 +1,114 @@
+body{
+	margin: 0;
+	font-family: cursive;
+}
+
+.logo {
+	text-align: center;
+	background-color: #616161;
+
+}
+
+header {
+	width: 100%;
+	background-color: #616161
+}
+
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+.menu li {
+	border-right: 1px solid #ffffff;
+}
+
+.menu li {
+	border-left: 1px solid #ffffff;
+}
+
+.menu li:hover {
+	background-color: rgba(0,0,0,0.3);
+}
+
+.menu li a{
+	display: block;
+	padding: 15px 50px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.gizlireklam {
+	background-color: #616161;
+	text-align: center;
+	display: none;
+	padding: 2%;
+}
+
+.reklam1 {
+	float: left;
+	padding: 5% 2%;
+	background-color: #616161;
+}
+
+.reklam2 {
+	background-color: #616161;
+	float: right;
+	padding: 5% 2%
+}
+
+.anayazi {
+	display: block;
+	text-align: center;
+	padding: 1%;
+	background-color: #9E9E9E
+	width: 60%
+}
+
+.anayazi2 {
+	display: none;
+	text-align: center;
+	padding: 1%;
+	background-color: #9E9E9E
+	width: 60%
+}
+
+
+@media (max-width: 800px) {
+	.anayazi {
+		display: none;
+	}
+
+	.anayazi2 {
+		display: block;
+	}
+
+	.reklam1 {
+		display: none;
+	}
+
+	.reklam2 {
+		display: none;
+	}
+
+	.gizlireklam {
+		display: block;
+	}
+
+	.menu ul {
+		display: block;
+	}
+
+	.menu ul li {
+		float: none;
+	}
+
+	.menu ul li {
+		border-right: none; border-left: none; border-bottom: 1px solid #ffffff; border-top: 1px solid #ffffff; text-align: center;
+	}
+
+}
+
